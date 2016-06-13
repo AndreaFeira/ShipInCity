@@ -1,0 +1,264 @@
+{
+  "project": {
+    "projectSettingsVersion": "3.0.0",
+    "creationData": {
+      "projectTypeName": "com.intel.xdk.projecttype.jsapp",
+      "src": "jsapp/template-babylonjs/sample.zip",
+      "projectGuid": "95e5d03f-c707-4c14-b52b-fa7998ae490e",
+      "lastModifiedDate": 1465818150494,
+      "creationDate": 1465818150164
+    },
+    "sourceDirectory": "www",
+    "cordovaPluginsDirectory": "plugins",
+    "gameAssetDirectory": "asset",
+    "gameMetadata": {},
+    "testDirectory": "test",
+    "startFile": "index.html",
+    "projectTags": [],
+    "projectFiles": {},
+    "projectDirectories": {
+      "xdk": {
+        "settings": {
+          "project": {
+            "XDK-generated": "true"
+          }
+        }
+      },
+      "www/xdk": {
+        "settings": {
+          "project": {
+            "XDK-generated": "true"
+          }
+        }
+      }
+    },
+    "libraries": [],
+    "cordovaPlugins": [],
+    "serviceMethods": [],
+    "buildConfigurations": {
+      "Android": {
+        "platform_": "android",
+        "runtime_": "W3C on Crosswalk",
+        "name_": "Android",
+        "preferences_": {
+          "android-minSdkVersion": "14",
+          "android-targetSdkVersion": "21",
+          "android-installLocation": "auto",
+          "android-signed": true
+        },
+        "isActive_": true,
+        "appName_": "ShipInCity",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*",
+            "market:*"
+          ],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "",
+        "appVersion_": "0.0.1",
+        "appVersionCode_": "1",
+        "crosswalkVersion_": "16",
+        "cordovaCLIVersion_": "5.4.1"
+      },
+      "iOS": {
+        "platform_": "ios",
+        "runtime_": "W3C on Cordova",
+        "name_": "iOS",
+        "preferences_": {
+          "ios-configuration": "adhoc",
+          "deployment-target": "8.0"
+        },
+        "isActive_": true,
+        "appName_": "ShipInCity",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*",
+            "itms:*",
+            "itms-apps:*"
+          ],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "",
+        "appVersion_": "0.0.1",
+        "cordovaCLIVersion_": "5.4.1",
+        "iosProvs_": []
+      },
+      "Windows8": {
+        "platform_": "windows8",
+        "runtime_": "W3C on Cordova",
+        "name_": "Windows8",
+        "preferences_": {},
+        "isActive_": true,
+        "appName_": "ShipInCity",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*"
+          ],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "",
+        "appVersion_": "0.0.0.1",
+        "cordovaCLIVersion_": "5.4.1"
+      },
+      "WebApp": {
+        "platform_": "webapp",
+        "runtime_": "W3C",
+        "name_": "WebApp",
+        "preferences_": {},
+        "isActive_": true,
+        "appName_": "ShipInCity",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "",
+        "appVersion_": "0.0.1"
+      },
+      "Firefox": {
+        "platform_": "firefoxos",
+        "runtime_": "W3C on Firefox OS",
+        "name_": "Firefox",
+        "preferences_": {},
+        "isActive_": true,
+        "appName_": "ShipInCity",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "",
+        "appVersion_": "0.0.1"
+      },
+      "Chrome": {
+        "platform_": "chromeos",
+        "runtime_": "W3C on Chrome OS",
+        "name_": "Chrome",
+        "preferences_": {},
+        "isActive_": true,
+        "appName_": "ShipInCity",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "",
+        "appVersion_": "0.0.1"
+      },
+      "Facebook": {
+        "platform_": "facebook",
+        "runtime_": "W3C on Facebook",
+        "name_": "Facebook",
+        "preferences_": {},
+        "isActive_": true,
+        "appName_": "ShipInCity",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "",
+        "appVersion_": "0.0.1"
+      },
+      "WP81": {
+        "platform_": "wp81",
+        "runtime_": "W3C on Cordova",
+        "name_": "WP81",
+        "preferences_": {},
+        "isActive_": true,
+        "appName_": "ShipInCity",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "",
+        "appVersion_": "0.0.0.1",
+        "cordovaCLIVersion_": "5.4.1"
+      }
+    }
+  }
+}

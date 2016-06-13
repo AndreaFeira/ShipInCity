@@ -1,0 +1,23 @@
+@-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }  @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
+@-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }           @viewport { user-zoom: fixed ; min-zoom: 100% ; }
+html, body {
+    overflow: hidden;
+    width   : 100%;
+    height  : 100%;
+    margin  : 0;
+    padding : 0;
+}
+
+#renderCanvas {
+    width   : 100%;
+    height  : 100%;
+    touch-action: none;
+}
+
+#ammoLabel {
+    position:absolute;
+    top:20px;
+    left : 20px;
+    color:white;
+    font-size: 2em;
+}
